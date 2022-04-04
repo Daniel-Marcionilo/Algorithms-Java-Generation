@@ -1,16 +1,16 @@
 
 /*
- * Uma empresa desenvolveu uma pesquisa para saber as características psicológicas
- * dos indivíduos de uma região. Para tanto, a cada uma das pessoas era perguntado:
- * idade, sexo (1-feminino / 2-masculino / 3-Outros), e as opções 
+ * Uma empresa desenvolveu uma pesquisa para saber as caracterÃ­sticas psicolÃ³gicas
+ * dos indivÃ­duos de uma regiÃ£o. Para tanto, a cada uma das pessoas era perguntado:
+ * idade, sexo (1-feminino / 2-masculino / 3-Outros), e as opÃ§Ãµes 
  * (1, se a pessoa era calma; 2, se a pessoa era nervosa e 3, se a pessoa era agressiva).
  * Pede-se para elaborar um sistema que permita ler os dados de 150 pessoas, calcule e mostre:
- * 	- o número de pessoas calmas; 
-	- o número de mulheres nervosas; 
-	- o número de homens agressivos; 
-	- o número de outros calmos;
-	- o número de pessoas nervosas com mais de 40 anos; 
-	- o número de pessoas calmas com menos de 18 anos.
+ * 	- o nÃºmero de pessoas calmas; 
+	- o nÃºmero de mulheres nervosas; 
+	- o nÃºmero de homens agressivos; 
+	- o nÃºmero de outros calmos;
+	- o nÃºmero de pessoas nervosas com mais de 40 anos; 
+	- o nÃºmero de pessoas calmas com menos de 18 anos.
  */
 package Lacos_Repeticao;
 
@@ -24,8 +24,8 @@ public class Ex04 {
 		int cont = 0, idade, sexo, personalidade, qtdePessoasCalmas = 0, qtdeMulheresNervosas = 0;
 		int qtdeHomensAgressivos = 0, qtdeOutrosCalmos = 0, qtdeNervosasMaiorQuarenta = 0, qtdeCalmosMenor = 0;
 
-		System.out.println("Pesquisa - Características Psicológicas");
-		while (cont < 7) {
+		System.out.println("Pesquisa - CaracterÃ­sticas PsicolÃ³gicas");
+		while (cont < 150) {
 			System.out.print("\nQual sua idade? ");
 			idade = leitor.nextInt();
 
@@ -33,14 +33,14 @@ public class Ex04 {
 			System.out.println("   1 - Feminino");
 			System.out.println("   2 - Masculino");
 			System.out.println("   3 - Outros");
-			System.out.print("Escolha uma das opções acima: ");
+			System.out.print("Escolha uma das opÃ§Ãµes acima: ");
 			sexo = leitor.nextInt();
 
-			System.out.println("\nVocê se considera uma pessoa");
+			System.out.println("\nVocÃª se considera uma pessoa");
 			System.out.println("   1 - Calma");
 			System.out.println("   2 - Nervosa");
 			System.out.println("   3 - Agressiva");
-			System.out.print("Escolha uma das opções acima: ");
+			System.out.print("Escolha uma das opÃ§Ãµes acima: ");
 			personalidade = leitor.nextInt();
 
 			if (personalidade == 1) {
@@ -70,12 +70,12 @@ public class Ex04 {
 			cont++;
 		}
 		
-		System.out.println("\n\nNúmero de pessoas calmas: "+ qtdePessoasCalmas);
-		System.out.println("Número de mulheres nervosas: "+ qtdeMulheresNervosas);
-		System.out.println("Número de homens agressivos: "+ qtdeHomensAgressivos);
-		System.out.println("Número de outros calmos: "+ qtdeOutrosCalmos);
-		System.out.println("Número de nervosas com mais de 40 anos: "+ qtdeNervosasMaiorQuarenta);
-		System.out.println("Número de pessoas calmas com menos de 18 anos: "+ qtdeCalmosMenor);
+		System.out.println("\n\nNÃºmero de pessoas calmas: "+ qtdePessoasCalmas);
+		System.out.println("NÃºmero de mulheres nervosas: "+ qtdeMulheresNervosas);
+		System.out.println("NÃºmero de homens agressivos: "+ qtdeHomensAgressivos);
+		System.out.println("NÃºmero de outros calmos: "+ qtdeOutrosCalmos);
+		System.out.println("NÃºmero de nervosas com mais de 40 anos: "+ qtdeNervosasMaiorQuarenta);
+		System.out.println("NÃºmero de pessoas calmas com menos de 18 anos: "+ qtdeCalmosMenor);
 		
 	}
 
