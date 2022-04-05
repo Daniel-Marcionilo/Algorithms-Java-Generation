@@ -24,7 +24,11 @@ public class Ex04 {
 		int cont = 0, idade, sexo, personalidade, qtdePessoasCalmas = 0, qtdeMulheresNervosas = 0;
 		int qtdeHomensAgressivos = 0, qtdeOutrosCalmos = 0, qtdeNervosasMaiorQuarenta = 0, qtdeCalmosMenor = 0;
 
+<<<<<<< HEAD
 		System.out.println("Pesquisa - Características Psicológicas");
+=======
+		System.out.println("Pesquisa - Caracter�sticas Psicol�gicas");
+>>>>>>> f05276c (Atualização em Laços e Subindo exercícios de Vetores e Matrizes)
 		while (cont < 150) {
 			System.out.print("\nQual sua idade? ");
 			idade = leitor.nextInt();

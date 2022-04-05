@@ -19,6 +19,7 @@ public class Ex06 {
 				cont++;
 			}
 		} while (x != 0);
+	
 
 		media = soma / cont;
 
